@@ -8,7 +8,7 @@ body{
     background:#23E3C9;
 }
 .slider{
-    width:100vh;
+    width:100%;
     height: 70vh;
     border-radius: 10px;
     overflow: hidden;
@@ -23,18 +23,14 @@ display: none;
 }
 .slide{
     width: 100%;
-    transition: 2s;
-}
-.slide.img{
-    width: 100vh;
-    height: 70vh;
+    transition: 1s;
 }
 
 /* css for manual slide navigation */
 
 .navigation-manual{
 position: absolute;
-width: 100vh;
+width: 100%;
 margin-top: -5vh;
 display: flex;
 justify-content:center;
@@ -67,7 +63,7 @@ justify-content:center;
 /* css for automatic navigation */
 .navigation-auto{
     position: absolute;
-    width: 100vh;
+    width: 100%;
     margin-top: 65vh;
     display: flex;
     justify-content:center;
