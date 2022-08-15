@@ -1,14 +1,14 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background:#23E3C9;
 }
 .slider{
-    width:99%;
+    width:98%;
     height: 70vh;
     border-radius: 10px;
     overflow: hidden;
